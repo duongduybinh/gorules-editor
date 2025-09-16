@@ -101,7 +101,7 @@ export const Disabled: Story = {
 const components: NodeSpecification[] = [
   {
     type: 'decisionNode',
-    displayName: 'Decision',
+    displayName: 'Decision Node',
     shortDescription: 'Execute decisions',
     icon: <ApartmentOutlined />,
     generateNode: () => ({ name: 'myDecision' }),

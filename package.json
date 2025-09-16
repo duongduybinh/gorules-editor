@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "lerna": "lerna",
+    "editor": "lerna --scope=@gorules/editor run",
+    "jdm": "lerna --scope=@gorules/jdm-editor run ",
     "build": "lerna run build",
     "test": "lerna run test",
     "typecheck": "lerna run typecheck",
